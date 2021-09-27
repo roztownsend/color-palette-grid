@@ -1,7 +1,69 @@
 body {
-    font-family: "Helvetica Neue", "Helvetica", sans-serif;
+    font-family: "Helvetica", sans-serif;
     color: #000;
     background-color: #FFF;
     margin: auto;
+    height: 100vh;
 }
 
+
+.grid__container {
+    display: grid;
+    grid-gap: 1.5rem;
+}
+
+.grid__element {
+    
+}
+
+/* Color palette generated from mycolor.space/?hex=%23D20115 */
+
+._D20115 {
+    background-color: #D20115;   
+}
+
+._DD4857 {
+    background-color: #dd4857;
+}
+
+._C40056 {
+    background-color: #C40056;
+}
+
+._AD266A {
+    background-color: #AD266A;
+}
+
+._982D7E {
+    background-color: #982D7E;
+}
+
+._673670 {
+    background-color: #673670;
+}
+
+._352450 {
+    background-color: #352450;
+}
+
+._604588 {
+    background-color: #604588;
+}
+
+._1C5172 {
+    background-color: #1C5172;
+}
+
+._2F4858 {
+    background-color: #2F4858;
+}
+
+
+.palette__label {
+    background-color: #9BC1BC;
+}
+
+h1 {
+    font-size: 4rem;
+    text-transform: uppercase;
+}
