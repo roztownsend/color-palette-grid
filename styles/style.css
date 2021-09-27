@@ -4,26 +4,35 @@ body {
     background-color: #FFF;
     margin: auto;
     height: 100vh;
+    max-width: 80%;
 }
 
 
 .grid__container {
     display: grid;
+    padding: 2rem;
     grid-gap: 1.5rem;
+    grid-template-columns: 33% 1fr 1fr;
+    grid-template-rows: 
 }
 
 .grid__element {
-    
+    position: relative;
 }
 
 /* Color palette generated from mycolor.space/?hex=%23D20115 */
 
 ._D20115 {
     background-color: #D20115;   
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
 }
 
 ._DD4857 {
-    background-color: #dd4857;
+    background-color: #DD4857;
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+
 }
 
 ._C40056 {
