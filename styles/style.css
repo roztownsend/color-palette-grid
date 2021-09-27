@@ -12,8 +12,8 @@ body {
 .grid__container {
     display: grid;
     margin:auto;
-    margin-top: 1.5rem;
-    grid-gap: 1.5rem;
+    margin-top: 1rem;
+    grid-gap: 1rem;
     grid-template-rows: 60% 40%;
     grid-template-columns: 1fr 2fr;
     max-width: 90%;
@@ -25,7 +25,7 @@ body {
 
 .grid__container__left {
     display: grid;
-    grid-gap: 1.5rem;
+    grid-gap: 1rem;
     grid-template-rows: 1fr 1fr;
     grid-area: 1 / 1;
 }
@@ -41,7 +41,7 @@ body {
 
 .grid__container__top { 
     display: grid;
-    grid-gap: 1.5rem;
+    grid-gap: 1rem;
 }
 
 ._AD266A {
@@ -75,7 +75,7 @@ body {
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 25% 50% 25%;
-    grid-gap: 1.5rem;
+    grid-gap: 1rem;
     overflow: hidden;
 }
 
@@ -103,11 +103,9 @@ body {
 .palette__label {
     background-color: #9BC1BC;
     max-width: 95%;
-    margin: auto;    
-}
-
-h1 {
+    margin: 1rem auto;
+    padding: 1%;
     font-size: 4rem;
+    font-weight: bold;
     text-transform: uppercase;
-    padding: 1rem;
 }
